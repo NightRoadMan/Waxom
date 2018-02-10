@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Спецификация*/
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*Стилизация header*/
+
+.main-head {
+    background: #45433f url("../img/background-main.jpg") center top;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-logo {
+    margin: 30px 0 0 0;
+}
+
+.main-menu_item {
+    margin: 0 25px 0 0;
+    padding: 0;
+}
+
+.main-menu_item:last-child {
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu_item a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.main-menu-margin {
+    margin: 50px 0 0 0;
+}
+
+.main-menu_item a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.main-menu_item a:active {
+    border-bottom: 1px solid yellow;
+    color: yellow;
+}
