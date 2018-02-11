@@ -390,3 +390,102 @@ ul, li {
     text-decoration: none;
     background: #736357;
 }
+
+/*Стилизация галлереи*/
+
+.out-projects {
+    padding: 80px 0 80px;
+    background: #fff;
+}
+
+.project-name {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0;
+    margin: 0 0 30px 0;
+    color: #555;
+}
+
+.project-descrip {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+    color: #8c8c8c;
+    width: 780px;}
+
+
+/*Стилизация кнопок галереи*/
+
+.button-gallery {
+    padding: 7px 20px;
+    margin: 40px 10px 40px 0;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    color: #8c8c8c;
+}
+
+.button-gallery:hover {
+    background: #998675;
+    border: 1px solid #998675;
+    color: #fff;
+}
+
+/*Стилизация карточек*/
+
+.cards-gallery {
+    width: 340px;
+    height: 310px;
+    background: url("../img/blank-white.png") no-repeat center bottom,
+                url("../img/gallery/1.jpg") no-repeat center top;
+    position: relative;
+    transition: all 0.7s;
+    cursor: pointer;
+    background-size: contain, 345px;
+}
+
+.cards-gallery:hover {
+    background: url("../img/blank-brown.png") no-repeat center bottom,
+    url("../img/gallery/1.jpg") center top;
+    transition: all 0.7s;
+    background-size: contain, 345px;
+}
+
+.cards-gallery-name {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    color: #c7b299;
+    transition: all 0.7s;
+}
+
+.cards-gallery-descrip {
+    font-size: 14px;
+    font-weight: 14px;
+    padding: 0;
+    margin: 0;
+    color: #d1d1d1;
+    transition: all 0.7s;
+}
+
+.position-description {
+    position: absolute;
+    bottom: 18px;
+    left: 25px;
+}
+
+.cards-gallery:hover .cards-gallery-name {
+    color: #fff;
+    transition: all 0.7s;
+}
+
+.cards-gallery:hover .cards-gallery-descrip{
+    color: #c7b299;
+    transition: all 0.7s;
+}
+
