@@ -7,6 +7,10 @@ body {
 
 /*Спецификация*/
 
+* {
+    box-sizing: border-box;
+}
+
 ul, li {
     display: block;
     padding: 0;
@@ -54,4 +58,288 @@ ul, li {
 .main-menu_item a:active {
     border-bottom: 1px solid yellow;
     color: yellow;
+}
+
+/*Стилизация слайдера*/
+
+.sl-item-descrip {
+    font-size: 36px;
+    color: #fff;
+    padding: 0;
+    line-height: 36px;
+    margin: 0 0 10px 0;
+}
+
+.sl-item-1 h1 {
+    font-size: 52px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 0 25px 0;
+    line-height: 52px;
+}
+
+.sl-item-text {
+    color: #fff;
+    font-size: 16px;
+    width: 570px;
+    margin: 0 auto 80px auto;
+}
+
+.sl-button-start {
+    padding: 22px 38px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    background: #998675;
+    box-shadow: 0 4px #736357;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.sl-button-start:hover {
+    background: #736357;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sl-button-start:active {
+    background: #625141;
+    color: #fff;
+    box-shadow: 0 4px #625141;
+}
+
+.sl-item-1 {
+    outline: none;
+    padding-bottom: 40px;
+}
+
+.multiple-items {
+    margin: 200px 0 0 0;
+}
+
+/*Стилизация точек слайдера*/
+.slick-dots {
+    bottom: -150px;
+}
+
+.slick-dots li {
+    margin: 0 6px 0 0;
+}
+
+.slick-dots li:last-child {
+    margin: 0;
+}
+
+.slick-dots li button {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+.slick-dots li button:before {
+    content: '';
+    background: #fff;
+    opacity: 0.5;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top:50%;
+    left: 50%;
+    margin: -5px 0 0 -5px;
+    transition: all 0.4s;
+}
+
+.slick-dots li.slick-active button {
+    border: 2px solid white;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: all 0.4s;
+
+}
+
+.slick-dots li.slick-active button:before {
+    content: '';
+    background: transparent;
+    opacity: 0.5;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top:50%;
+    left: 50%;
+    margin: -5px 0 0 -5px;
+    transition: all 0.4s;
+}
+
+/*Стилизация стрелок*/
+
+.prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    display: block;
+}
+
+.prev-button {
+    background-image: url("../img/left.svg");
+    left: -140px;
+    width: 40px;
+    height: 72px;
+    background-repeat: no-repeat;
+}
+
+.next-button {
+    background-image: url("../img/right.svg");
+    right: -140px;
+    width: 40px;
+    height: 72px;
+    background-repeat: no-repeat;
+}
+
+.prev-button:hover, .prev-button:active {
+    background-image: url("../img/left-active.svg");
+    transition: all 0.4s;
+}
+
+.next-button:hover, .next-button:active {
+    background-image: url("../img/right-active.svg");
+    transition: all 0.4s;
+}
+
+/*Стилизация секции о нас*/
+
+.about-name {
+    font-size: 22px;
+    color: #555;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    margin: 20px 0 0 0;
+    transition: all 0.4s;
+}
+
+.about-descrip {
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 14px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-weight: 400;
+    width: 270px;
+    transition: all 0.4s;
+}
+
+.about-us {
+    background: #fff;
+    padding: 80px 0 80px 0;
+}
+
+.about-cards {
+    position: relative;
+    transition: all 0.4s;
+}
+
+.about-cards:after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    background: #f1eee9;
+    top: 200px;
+    left: 50%;
+    margin-left: -35px;
+    transition: all 0.4s;
+}
+
+/*Стилизация иконок*/
+
+.icon-svg {
+    width: 55px;
+    height: 55px;
+}
+
+.icon-pen {
+    background: url("../img/icon-pen.svg") no-repeat center;
+    transition: all 0.4s;
+}
+
+.icon-develop {
+    background: url("../img/icon-develop.svg") no-repeat center;
+}
+
+.icon-market {
+    background: url("../img/icon-market.svg") no-repeat center;
+    transition: all 0.4s;
+}
+
+.icon-custom {
+    background: url("../img/icon-custom.svg") no-repeat center;
+    transition: all 0.4s;
+}
+
+.about-cards:hover {
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.about-cards:hover .about-name  {
+    color: #c7b299;
+    transition: all 0.4s;
+}
+
+.about-cards:hover:after  {
+    background: #c7b299;
+    transition: all 0.4s;
+}
+
+/*Стилизация поведения иконок на курсор*/
+
+.about-cards:hover .icon-custom {
+    background: url("../img/icon-custom-active.svg") no-repeat center;
+    transition: all 0.4s;
+}
+
+.about-cards:hover .icon-market {
+    background: url("../img/icon-market-active.svg") no-repeat center;
+    transition: all 0.4s;
+}
+
+.about-cards:hover .icon-pen {
+    background: url("../img/icon-pen-active.svg") no-repeat center;
+    transition: all 0.4s;
+}
+
+.about-cards:hover .icon-develop {
+    background: url("../img/icon-develop-active.svg") no-repeat center;
+    transition: all 0.4s;
+}
+
+/*Стилизация второй секции Браузер*/
+
+.waxom-browser {
+    padding: 85px 0 520px 0;
+    background: url("../img/browser-center.png") no-repeat 50% 100%,
+                #fbfaf8;
+}
+
+.waxom-browser_name {
+    padding: 0;
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #555;
+    text-align: center;
+}
+
+.waxom-browser_descrip {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-align: center;
+    width: 770px;
 }
