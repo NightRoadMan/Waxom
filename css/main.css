@@ -343,3 +343,50 @@ ul, li {
     text-align: center;
     width: 770px;
 }
+
+/*Стилизация плашки с градиентом*/
+
+.wordpress-gradient {
+    padding: 40px 0 40px 0;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#211b19+0,4e3427+100 */
+    background: #211b19; /* Old browsers */
+    background: -moz-linear-gradient(left, #211b19 0%, #4e3427 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #211b19 0%,#4e3427 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #211b19 0%,#4e3427 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211b19', endColorstr='#4e3427',GradientType=1 ); /* IE6-9 */
+}
+
+.wordpress-name {
+    font-size: 28px;
+    line-height: 28px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+    color: #fff;
+}
+
+.wordpress-descrip {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    color: #615855;
+}
+
+.button-purchase {
+     padding: 15px 25px;
+     background: #998675;
+     color: #fff;
+     box-shadow: 0 3px 0 #736357;
+     border-radius: 3px;
+     text-transform: uppercase;
+     text-decoration: none;
+}
+
+.button-purchase:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #736357;
+}
