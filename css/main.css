@@ -432,6 +432,7 @@ ul, li {
     background: #998675;
     border: 1px solid #998675;
     color: #fff;
+    cursor: pointer;
 }
 
 /*Стилизация карточек*/
@@ -439,20 +440,15 @@ ul, li {
 .cards-gallery {
     width: 340px;
     height: 310px;
-    background: url("../img/blank-white.png") no-repeat center bottom,
-                url("../img/gallery/1.jpg") no-repeat center top;
     position: relative;
     transition: all 0.7s;
     cursor: pointer;
-    background-size: contain, 345px;
     margin: 0 0 30px 0;
 }
 
 .cards-gallery:hover {
-    background: url("../img/blank-brown.png") no-repeat center bottom,
-    url("../img/gallery/1.jpg") center top;
+
     transition: all 0.7s;
-    background-size: contain, 345px;
 }
 
 .cards-gallery-name {
@@ -489,6 +485,106 @@ ul, li {
     color: #c7b299;
     transition: all 0.7s;
 }
+
+/*Фото на вкладки*/
+
+.photo-1 {
+    background: url("../img/blank-white.png") no-repeat center bottom,
+    url("../img/gallery/1.jpg") no-repeat center top;
+    background-size: contain, 345px;
+}
+
+.photo-1:hover {
+    background: url("../img/blank-brown.png") no-repeat center bottom,
+    url("../img/gallery/1.jpg") center top;
+    background-size: contain, 345px;
+}
+
+.photo-2 {
+    background: url("../img/blank-white.png") no-repeat center bottom,
+    url("../img/gallery/2.jpg") no-repeat center top;
+    background-size: contain, 345px;
+}
+
+.photo-2:hover {
+    background: url("../img/blank-brown.png") no-repeat center bottom,
+    url("../img/gallery/2.jpg") center top;
+    background-size: contain, 345px;
+}
+
+.photo-3 {
+    background: url("../img/blank-white.png") no-repeat center bottom,
+    url("../img/gallery/3.jpg") no-repeat center top;
+    background-size: contain, 345px;
+}
+
+.photo-3:hover {
+    background: url("../img/blank-brown.png") no-repeat center bottom,
+    url("../img/gallery/3.jpg") center top;
+    background-size: contain, 345px;
+}
+
+.photo-4 {
+    background: url("../img/blank-white.png") no-repeat center bottom,
+    url("../img/gallery/4.jpg") no-repeat center top;
+    background-size: contain, 345px;
+}
+
+.photo-4:hover {
+    background: url("../img/blank-brown.png") no-repeat center bottom,
+    url("../img/gallery/4.jpg") center top;
+    background-size: contain, 345px;
+}
+
+.photo-5 {
+    background: url("../img/blank-white.png") no-repeat center bottom,
+    url("../img/gallery/5.jpg") no-repeat center top;
+    background-size: contain, 345px;
+}
+
+.photo-5:hover {
+    background: url("../img/blank-brown.png") no-repeat center bottom,
+    url("../img/gallery/5.jpg") center top;
+    background-size: contain, 345px;
+}
+
+.photo-6 {
+    background: url("../img/blank-white.png") no-repeat center bottom,
+    url("../img/gallery/6.jpg") no-repeat center top;
+    background-size: contain, 345px;
+}
+
+.photo-6:hover {
+    background: url("../img/blank-brown.png") no-repeat center bottom,
+    url("../img/gallery/6.jpg") center top;
+    background-size: contain, 345px;
+}
+
+.photo-7 {
+    background: url("../img/blank-white.png") no-repeat center bottom,
+    grey center top;
+    background-size: contain, 345px;
+}
+
+.photo-7:hover {
+    background: url("../img/blank-brown.png") no-repeat center bottom,
+    grey center top;
+    background-size: contain, 345px;
+}
+
+.photo-8 {
+    background: url("../img/blank-white.png") no-repeat center bottom,
+    blueviolet center top;
+    background-size: contain, 345px;
+}
+
+.photo-8:hover {
+    background: url("../img/blank-brown.png") no-repeat center bottom,
+    blueviolet center top;
+    background-size: contain, 345px;
+}
+
+/*Конец фото на вкладки*/
 
 /*Стилизация вкладок*/
 
