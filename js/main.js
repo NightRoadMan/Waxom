@@ -7,3 +7,4 @@ $(document).ready(function(){
         nextArrow: '<div class="next-button"></div>'
     });
 });
+
