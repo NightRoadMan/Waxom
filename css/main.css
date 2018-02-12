@@ -445,6 +445,7 @@ ul, li {
     transition: all 0.7s;
     cursor: pointer;
     background-size: contain, 345px;
+    margin: 0 0 30px 0;
 }
 
 .cards-gallery:hover {
@@ -491,3 +492,26 @@ ul, li {
 
 /*Стилизация вкладок*/
 
+.tabs__caption li:not(.active) {
+    cursor: pointer;
+}
+
+.tabs__caption li .active {
+    cursor: pointer;
+}
+
+.active .button-gallery {
+    background: #998675;
+    border: 1px solid #998675;
+    color: #fff;
+}
+
+.tabs__content {
+    display: none;
+
+}
+.tabs__content.active {
+    display: flex;
+}
+
+/*Конец*/
