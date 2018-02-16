@@ -444,6 +444,7 @@ ul, li {
     transition: all 0.7s;
     cursor: pointer;
     margin: 0 0 30px 0;
+    transition: all 0.7s;
 }
 
 .cards-gallery:hover {
@@ -492,96 +493,112 @@ ul, li {
     background: url("../img/blank-white.png") no-repeat center bottom,
     url("../img/gallery/1.jpg") no-repeat center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-1:hover {
     background: url("../img/blank-brown.png") no-repeat center bottom,
     url("../img/gallery/1.jpg") center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-2 {
     background: url("../img/blank-white.png") no-repeat center bottom,
     url("../img/gallery/2.jpg") no-repeat center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-2:hover {
     background: url("../img/blank-brown.png") no-repeat center bottom,
     url("../img/gallery/2.jpg") center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-3 {
     background: url("../img/blank-white.png") no-repeat center bottom,
     url("../img/gallery/3.jpg") no-repeat center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-3:hover {
     background: url("../img/blank-brown.png") no-repeat center bottom,
     url("../img/gallery/3.jpg") center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-4 {
     background: url("../img/blank-white.png") no-repeat center bottom,
     url("../img/gallery/4.jpg") no-repeat center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-4:hover {
     background: url("../img/blank-brown.png") no-repeat center bottom,
     url("../img/gallery/4.jpg") center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-5 {
     background: url("../img/blank-white.png") no-repeat center bottom,
     url("../img/gallery/5.jpg") no-repeat center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-5:hover {
     background: url("../img/blank-brown.png") no-repeat center bottom,
     url("../img/gallery/5.jpg") center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-6 {
     background: url("../img/blank-white.png") no-repeat center bottom,
     url("../img/gallery/6.jpg") no-repeat center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-6:hover {
     background: url("../img/blank-brown.png") no-repeat center bottom,
     url("../img/gallery/6.jpg") center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-7 {
     background: url("../img/blank-white.png") no-repeat center bottom,
     grey center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-7:hover {
     background: url("../img/blank-brown.png") no-repeat center bottom,
     grey center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-8 {
     background: url("../img/blank-white.png") no-repeat center bottom,
     blueviolet center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 .photo-8:hover {
     background: url("../img/blank-brown.png") no-repeat center bottom,
     blueviolet center top;
     background-size: contain, 345px;
+    transition: all 0.7s;
 }
 
 /*Конец фото на вкладки*/
@@ -666,3 +683,68 @@ ul, li {
     font-size: 16px;
     color: #fff;
 }
+
+/*Стилищация секции с телефоном*/
+
+.phone-hand {
+    padding: 150px 0 140px 0;
+    background: url("../img/iphone-hand.png") no-repeat 200px 100px,
+            #fbfaf8;
+}
+
+.phone-hand_name {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0 0 40px 0;
+    color: #555;
+}
+
+.phone-hand_descrip {
+    width: 665px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0 0 70px 0;
+    color: #8c8c8c;
+}
+
+.phone-hand_list-text {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0 0 15px 0;
+    color: #8c8c8c;
+}
+
+.fa-chevron-circle-right {
+    color: #c7b299;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+/*Конец стилизации секции руки с телефоном*/
+
+/*Стилиизация секциии со статистикой*/
+
+.card-one {
+    background: red url("../img/icon-grad/cup.svg") no-repeat center;
+}
+
+.gradient-numbers {
+    padding: 50px 0 50px 0;
+    background: #211b19; /* Old browsers */
+    background: -moz-linear-gradient(left, #211b19 0%, #4e3427 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #211b19 0%,#4e3427 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #211b19 0%,#4e3427 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211b19', endColorstr='#4e3427',GradientType=1 ); /* IE6-9 */
+}
+
+.icon-number {
+    width: 50px;
+    height: 50px;
+}
+

@@ -4,7 +4,9 @@ $(document).ready(function(){
         dots:true,
         slidesToShow: 1,
         prevArrow: '<div class="prev-button"></div>',
-        nextArrow: '<div class="next-button"></div>'
+        nextArrow: '<div class="next-button"></div>',
+        autoplay: true,
+        autoplaySpeed: 2000
     });
 });
 
